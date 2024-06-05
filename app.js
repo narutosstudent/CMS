@@ -77,7 +77,7 @@ app.use(
     })
 );
 
-
+const authRoutes = require("./routes/auth");
 // using pasport aswell as flash and csrf
 app.use(passport.initialize());
 app.use(passport.session());
